@@ -252,15 +252,7 @@ header {
   height: 85vh;
 }
 
-header .wrapper {
-  height: 100%;
-  position: relative;
-}
-
 img {
-  position: absolute;
-  left: -56px;
-  top: 197px;
-  width: 575px;
+  width: 625px;
   height: auto;
 }/*# sourceMappingURL=style.css.map */
