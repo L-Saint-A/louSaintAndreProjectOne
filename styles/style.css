@@ -270,6 +270,22 @@ h1 span {
   color: #063974;
 }
 
+.visit {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+.visit h3 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #0c5f4c;
+}
+.visit p {
+  color: #2c2c2c;
+}
+.visit a {
+  font-family: "Playfair Display SC", serif;
+}
+
 /*================
 STYLING
 =================*/
@@ -329,4 +345,12 @@ header {
   height: auto;
   position: absolute;
   top: -360px;
+}
+
+.visit {
+  padding: 10% 0;
+  background: #fafffe;
+}
+.visit .wrapper {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
