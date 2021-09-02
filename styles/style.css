@@ -238,13 +238,40 @@ font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display SC', serif;
 
 =================*/
-h2 {
+header h2 {
   font-family: "Playfair Display SC", serif;
   font-style: italic;
   font-size: 34.6px;
   color: #50e3c2;
 }
 
+header a {
+  font-family: "Lato", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #fafffe;
+}
+
+header a:hover {
+  color: #50e3c2;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-style: bold;
+  font-size: 87px;
+  color: #0c5f4c;
+}
+h1 span {
+  font-family: "Playfair Display SC", serif;
+  font-style: italic;
+  font-size: 111.2px;
+  color: #063974;
+}
+
+/*================
+STYLING
+=================*/
 .wrapper {
   max-width: 1300px;
   width: 90%;
@@ -255,8 +282,8 @@ header {
   background-image: url(../assets/home-image-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  height: 85vh;
+  background-size: cover;
+  height: 75%;
 }
 
 .headTop {
@@ -274,8 +301,25 @@ header {
 .headTop ul li {
   margin: 0 22px;
 }
+.headTop ul li a {
+  text-decoration: none;
+}
 
-img {
-  width: 625px;
+.headMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.headMid h1 {
+  position: absolute;
+  top: 75px;
+}
+.headMid h1 span {
+  display: block;
+}
+
+header img {
+  width: 715px;
   height: auto;
 }/*# sourceMappingURL=style.css.map */
