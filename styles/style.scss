@@ -1,0 +1,41 @@
+@import "setup";
+
+/*================
+TYPOGRAPHY
+
+font-family: 'Lato', sans-serif;
+
+font-family: 'Playfair Display SC', serif;
+
+=================*/
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    background-image: url(../assets/home-image-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 85vh;
+}
+header .wrapper {
+    height: 100%;
+    position: relative;
+}
+img {
+    position: absolute;
+    left: -56px;
+    top: 197px;
+    width: 575px;
+    height: auto;
+}
+.headTop {
+    display: flex;
+    height: 50%;
+}
+.headMid {
+    order: 1;
+}
