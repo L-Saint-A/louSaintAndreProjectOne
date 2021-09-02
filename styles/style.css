@@ -238,8 +238,15 @@ font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display SC', serif;
 
 =================*/
+h2 {
+  font-family: "Playfair Display SC", serif;
+  font-style: italic;
+  font-size: 34.6px;
+  color: #50e3c2;
+}
+
 .wrapper {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 90%;
   margin: 0 auto;
 }
@@ -250,6 +257,22 @@ header {
   background-position: center;
   background-size: contain;
   height: 85vh;
+}
+
+.headTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headTop h2 {
+  flex: 1 0 auto;
+}
+.headTop ul {
+  list-style: none;
+  display: flex;
+}
+.headTop ul li {
+  margin: 0 22px;
 }
 
 img {
