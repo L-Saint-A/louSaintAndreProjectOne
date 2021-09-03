@@ -353,4 +353,26 @@ header {
 }
 .visit .wrapper {
   display: flex;
+  align-items: center;
+}
+.visit .wrapper div:first-child {
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.visit .wrapper div:first-child p {
+  padding: 0 8rem 2rem 0;
+}
+.visit .wrapper div:first-child a {
+  text-decoration: none;
+  color: #fafffe;
+  background-color: #063974;
+  padding: 20px 20px;
+}
+.visit .wrapper div:nth-child(2) {
+  flex: 1 0 auto;
+}
+.visit .wrapper div:nth-child(2) img {
+  box-shadow: -30px 30px #50e3c2;
+  width: 350px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

@@ -115,5 +115,27 @@ header {
     background: #fafffe;
     .wrapper {
         display: flex;
+        align-items: center;
+        div:first-child{
+            line-height: 32px;
+            letter-spacing: 2px;
+            p{
+                padding: 0 8rem 2rem 0;
+            }
+            a {
+                text-decoration: none;
+                color: #fafffe;
+                background-color: #063974;
+                padding: 20px 20px;
+            }
+        }
+        div:nth-child(2){
+            flex: 1 0 auto;
+            img {
+                box-shadow: -30px 30px #50e3c2;
+                width: 350px;
+                height: auto;
+            }
+        }
     }
 }
