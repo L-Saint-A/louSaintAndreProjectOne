@@ -139,3 +139,20 @@ header {
         }
     }
 }
+.gallery {
+    background: #d2f9f1;
+    .wrapper {
+        display: flex;
+        width: 100%;
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            padding: 60px 0;
+            img {
+                width: 430px;
+                height: auto;
+            }
+        }
+    }
+}

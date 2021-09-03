@@ -375,4 +375,22 @@ header {
   box-shadow: -30px 30px #50e3c2;
   width: 350px;
   height: auto;
+}
+
+.gallery {
+  background: #d2f9f1;
+}
+.gallery .wrapper {
+  display: flex;
+  width: 100%;
+}
+.gallery .wrapper ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 60px 0;
+}
+.gallery .wrapper ul img {
+  width: 430px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
