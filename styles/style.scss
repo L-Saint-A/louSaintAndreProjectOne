@@ -198,8 +198,21 @@ header {
             }
             .fa-file {
                 padding: 19px;
-                font-size: 26px;
+                font-size: 27px;
             }
         }
     }
+}
+.locations {
+    background: #d2f9f1;
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            width: 50%;
+        }
+    }
+}
+.banner {
+    width: 100%;
 }

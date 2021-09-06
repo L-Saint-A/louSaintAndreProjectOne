@@ -441,5 +441,20 @@ header {
 }
 .links .wrapper .oneLink .fa-file {
   padding: 19px;
-  font-size: 26px;
+  font-size: 27px;
+}
+
+.locations {
+  background: #d2f9f1;
+}
+.locations .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.locations .wrapper div {
+  width: 50%;
+}
+
+.banner {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
