@@ -286,6 +286,22 @@ h1 span {
   font-family: "Playfair Display SC", serif;
 }
 
+.links {
+  font-family: "Lato", sans-serif;
+}
+.links h4 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 58px;
+  letter-spacing: 3.2px;
+  color: #0c5f4c;
+}
+.links p {
+  font-weight: normal;
+  font-size: 20PX;
+  color: #2c2c2c;
+}
+
 /*================
 STYLING
 =================*/
@@ -388,12 +404,17 @@ header {
   list-style: none;
   padding: 72px 0;
   justify-content: space-between;
+  margin: 0;
 }
 .gallery .wrapper ul img {
   width: 380px;
   height: auto;
 }
 
+.links {
+  background: #FAFFFE;
+  margin: 60px 0;
+}
 .links .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -402,6 +423,23 @@ header {
   width: 50%;
   display: flex;
 }
+.links .wrapper .oneLink div {
+  margin-left: 25px;
+}
 .links .wrapper .oneLink h4 {
   margin: 0;
+  text-align: start;
+  justify-self: end;
+}
+.links .wrapper .oneLink i {
+  color: #FAFFFE;
+  font-size: 30px;
+  background: #50e3c2;
+  padding: 14px;
+  height: 60px;
+  border-radius: 50%;
+}
+.links .wrapper .oneLink .fa-file {
+  padding: 19px;
+  font-size: 26px;
 }/*# sourceMappingURL=style.css.map */
