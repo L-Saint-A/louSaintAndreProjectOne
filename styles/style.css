@@ -302,6 +302,28 @@ h1 span {
   color: #2c2c2c;
 }
 
+.locations {
+  font-family: "Lato", sans-serif;
+}
+.locations h5 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #063974;
+}
+.locations p {
+  font-weight: normal;
+  font-size: 20PX;
+  color: #2c2c2c;
+}
+.locations a {
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  color: #FAFFFE;
+}
+
 /*================
 STYLING
 =================*/
@@ -382,7 +404,7 @@ header {
   text-decoration: none;
   color: #fafffe;
   background-color: #063974;
-  padding: 20px 20px;
+  padding: 20px;
 }
 .visit .wrapper div:nth-child(2) {
   flex: 1 0 auto;
@@ -452,7 +474,25 @@ header {
   flex-wrap: wrap;
 }
 .locations .wrapper div {
-  width: 50%;
+  width: 40%;
+  flex: 1 0 auto;
+}
+.locations .wrapper div img {
+  width: 550px;
+  height: auto;
+}
+.locations .wrapper div a {
+  background: #063974;
+  padding: 18px;
+}
+
+h5 {
+  margin: 0;
+}
+
+.locationPic2 {
+  display: flex;
+  justify-content: right;
 }
 
 .banner {
