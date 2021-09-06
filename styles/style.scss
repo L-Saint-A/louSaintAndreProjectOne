@@ -155,3 +155,17 @@ header {
         }
     }
 }
+
+.links {
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .oneLink {
+            width: 50%;
+            display: flex;
+            h4 {
+                margin: 0;
+            }
+        }
+    }
+}
