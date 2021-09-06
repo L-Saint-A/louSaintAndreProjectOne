@@ -142,15 +142,14 @@ header {
 .gallery {
     background: #d2f9f1;
     .wrapper {
-        display: flex;
         width: 100%;
         ul {
             display: flex;
             list-style: none;
-            justify-content: space-evenly;
-            padding: 60px 0;
+            padding: 72px 0;
+            justify-content: space-between;
             img {
-                width: 430px;
+                width: 380px;
                 height: auto;
             }
         }
