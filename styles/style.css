@@ -270,6 +270,14 @@ h1 span {
   color: #063974;
 }
 
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 20PX;
+  color: #2c2c2c;
+  line-height: 32px;
+}
+
 .visit {
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -278,9 +286,6 @@ h1 span {
   font-weight: bold;
   font-size: 35px;
   color: #0c5f4c;
-}
-.visit p {
-  color: #2c2c2c;
 }
 .visit a {
   font-family: "Playfair Display SC", serif;
@@ -296,11 +301,6 @@ h1 span {
   letter-spacing: 3.2px;
   color: #0c5f4c;
 }
-.links p {
-  font-weight: normal;
-  font-size: 20PX;
-  color: #2c2c2c;
-}
 
 .locations {
   font-family: "Lato", sans-serif;
@@ -309,11 +309,6 @@ h1 span {
   font-weight: bold;
   font-size: 35px;
   color: #063974;
-}
-.locations p {
-  font-weight: normal;
-  font-size: 20PX;
-  color: #2c2c2c;
 }
 .locations a {
   font-family: "Playfair Display SC", serif;
@@ -435,7 +430,7 @@ header {
 
 .links {
   background: #FAFFFE;
-  margin: 60px 0;
+  margin: 80px 0;
 }
 .links .wrapper {
   display: flex;
@@ -475,21 +470,21 @@ header {
   grid-template-rows: 33%;
 }
 .locations .wrapper div img {
-  width: 580px;
+  width: 560px;
   height: auto;
 }
 .locations .wrapper h5 {
   margin: 0;
 }
 .locations .wrapper p {
-  width: 580px;
-  line-height: 32px;
+  width: 560px;
 }
 
 .locationWords1, .locationWords2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  height: 345px;
 }
 .locationWords1 a, .locationWords2 a {
   display: inline-flexbox;
@@ -501,15 +496,33 @@ header {
 }
 
 .locationWords1, .locationPic2 {
-  margin-left: 70px;
+  margin-left: 90px;
+  margin-top: 50px;
 }
 
 .locationWords2 {
   align-items: flex-end;
-  margin-right: 70px;
+  margin-right: 90px;
+  margin-bottom: 32px;
 }
 .locationWords2 p {
   text-align: right;
+}
+
+.locationPic1, .locationPic2 {
+  position: relative;
+}
+.locationPic1 img, .locationPic2 img {
+  position: absolute;
+}
+
+.locationPic1 img {
+  box-shadow: 26px 26px #50e3c2;
+  top: -36px;
+}
+
+.locationPic2 img {
+  box-shadow: -26px 26px #50e3c2;
 }
 
 .banner {
