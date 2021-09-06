@@ -470,31 +470,49 @@ header {
   background: #d2f9f1;
 }
 .locations .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-.locations .wrapper div {
-  width: 40%;
-  flex: 1 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 33%;
 }
 .locations .wrapper div img {
-  width: 550px;
+  width: 580px;
   height: auto;
 }
-.locations .wrapper div a {
-  background: #063974;
-  padding: 18px;
-}
-
-h5 {
+.locations .wrapper h5 {
   margin: 0;
 }
+.locations .wrapper p {
+  width: 580px;
+  line-height: 32px;
+}
 
-.locationPic2 {
+.locationWords1, .locationWords2 {
   display: flex;
-  justify-content: right;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.locationWords1 a, .locationWords2 a {
+  display: inline-flexbox;
+  padding: 18px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #063974;
+}
+
+.locationWords1, .locationPic2 {
+  margin-left: 70px;
+}
+
+.locationWords2 {
+  align-items: flex-end;
+  margin-right: 70px;
+}
+.locationWords2 p {
+  text-align: right;
 }
 
 .banner {
   width: 100%;
+  grid-column-start: span 2;
 }/*# sourceMappingURL=style.css.map */
