@@ -247,6 +247,7 @@ header h2 {
 
 header a {
   font-family: "Lato", sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   color: #fafffe;
@@ -278,23 +279,16 @@ p {
   line-height: 32px;
 }
 
-.visit {
+h3 {
   font-family: "Lato", sans-serif;
   font-size: 20px;
-}
-.visit h3 {
   font-weight: bold;
   font-size: 35px;
   color: #0c5f4c;
 }
-.visit a {
-  font-family: "Playfair Display SC", serif;
-}
 
-.links {
+h4 {
   font-family: "Lato", sans-serif;
-}
-.links h4 {
   font-weight: bold;
   font-size: 30px;
   line-height: 58px;
@@ -302,21 +296,20 @@ p {
   color: #0c5f4c;
 }
 
-.locations {
+h5 {
   font-family: "Lato", sans-serif;
-}
-.locations h5 {
   font-weight: bold;
   font-size: 35px;
   color: #063974;
 }
-.locations a {
+
+a {
   font-family: "Playfair Display SC", serif;
-  font-size: 20px;
   text-decoration: none;
   font-style: italic;
   font-weight: bold;
   color: #FAFFFE;
+  font-size: 20px;
 }
 
 /*================
@@ -528,4 +521,33 @@ header {
 .banner {
   width: 100%;
   grid-column-start: span 2;
+}
+
+.freeTrip {
+  text-align: center;
+  background: #fafffe;
+}
+.freeTrip h5 {
+  margin-bottom: 15px;
+}
+.freeTrip p {
+  padding-bottom: 12px;
+}
+.freeTrip a {
+  padding: 18px 20px;
+  background: #063974;
+}
+
+.freeTrip .wrapper {
+  padding: 40px 0 160px 0;
+}
+
+footer {
+  background: #2c2c2c;
+  height: 34px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  color: #fafffe;
 }/*# sourceMappingURL=style.css.map */
