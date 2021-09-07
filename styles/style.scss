@@ -1,80 +1,83 @@
 @import "setup";
 
-/*================
-TYPOGRAPHY
 
-font-family: 'Lato', sans-serif;
+$primary: #50E3C2;
+$secondary: #D2F9F1;
+$tertiary: #FAFFFE;
+$quaternary: #0C5F4C;
+$quinary: #063974;
+$senary: #2C2C2C; 
 
-font-family: 'Playfair Display SC', serif;
+$mainFont: 'Lato', sans-serif;
+$subFont: 'Playfair Display SC', serif;
 
-=================*/
 header h2 {
-    font-family: 'Playfair Display SC', serif;
+    font-family: $subFont;
     font-style: italic;
     font-size: 34.6px;
-    color: #50e3c2;
+    color: $primary;
 }
 header a {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    color: #fafffe;
+    color: $tertiary;
 }
 header a:hover {
-    color: #50e3c2;
+    color: $primary;
     width: 100%;
 }
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: bold;
     font-size: 87px;
-    color: #0c5f4c;
+    color: $quaternary;
     span {
-        font-family: 'Playfair Display SC', serif;
+        font-family: $subFont;
         font-style: italic;
         font-size: 111.2px;
-        color: #063974;
+        color: $quinary;
     }
 }
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: normal;
     font-size: 20PX;
-    color: #2c2c2c;
+    color: $senary;
     line-height: 32px;
 }
 h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-size: 20px;
     font-weight: bold;
     font-size: 35px;
-    color: #0c5f4c;
+    color: $quaternary;
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: bold;
     font-size: 30px;
     line-height: 58px;
     letter-spacing: 3.2px;
-    color: #0c5f4c;
+    color: $quaternary;
 }
 
 
 h5 {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: bold;
     font-size: 35px;
-    color: #063974;
+    color: $quinary;
 }
 
 a {
-    font-family:  'Playfair Display SC', serif;
+    font-family:  $subFont;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
-    color: #FAFFFE;
+    color: $tertiary;
     font-size: 20px;
 }
 
@@ -137,7 +140,7 @@ header {
 }
 .visit {
     padding: 10% 0;
-    background: #fafffe;
+    background: $tertiary;
     .wrapper {
         display: flex;
         align-items: center;
@@ -149,15 +152,15 @@ header {
             }
             a {
                 text-decoration: none;
-                color: #fafffe;
-                background-color: #063974;
+                color: $tertiary;
+                background-color: $quinary;
                 padding: 20px;
             }
         }
         div:nth-child(2){
             flex: 1 0 auto;
             img {
-                box-shadow: -30px 30px #50e3c2;
+                box-shadow: -30px 30px $primary;
                 width: 350px;
                 height: auto;
             }
@@ -165,7 +168,7 @@ header {
     }
 }
 .gallery {
-    background: #d2f9f1;
+    background: $secondary;
     .wrapper {
         width: 100%;
         ul {
@@ -183,7 +186,7 @@ header {
 }
 
 .links {
-    background: #FAFFFE;
+    background: $tertiary;
     margin: 80px 0;
     .wrapper {
         display: flex;
@@ -200,9 +203,9 @@ header {
                 justify-self: end;
             }
             i {
-                color: #FAFFFE;
+                color: $tertiary;
                 font-size: 30px;
-                background: #50e3c2;
+                background: $primary;
                 padding: 14px;
                 height: 60px;
                 border-radius: 50%;
@@ -215,7 +218,7 @@ header {
     }
 }
 .locations {
-    background: #d2f9f1;
+    background: $secondary;
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -241,7 +244,7 @@ header {
         display: inline-flexbox;
         padding: 18px 20px;
         width: fit-content;
-        background: #063974;
+        background: $quinary;
     }
 }
 .locationWords1, .locationPic2 {
@@ -263,11 +266,11 @@ header {
     }
 }
 .locationPic1 img{
-    box-shadow: 26px 26px #50e3c2;;
+    box-shadow: 26px 26px $primary;
     top: -36px;
 }
 .locationPic2 img{
-    box-shadow: -26px 26px #50e3c2;;
+    box-shadow: -26px 26px $primary;
 }
 
 .banner {
@@ -276,7 +279,7 @@ header {
 }
 .freeTrip {
     text-align: center;
-    background: #fafffe;
+    background: $tertiary;
     h5 {
         margin-bottom: 15px;
     }
@@ -285,18 +288,18 @@ header {
     }
     a {
         padding: 18px 20px;
-        background: #063974;
+        background: $quinary;
     }
 }
 .freeTrip .wrapper {
     padding: 40px 0 160px 0;
 }
 footer {
-    background: #2c2c2c;
+    background: $senary;
     height: 34px;
     text-align: center;
     p {
         margin: 0;
-        color: #fafffe;
+        color: $tertiary;
     }
 }

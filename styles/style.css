@@ -230,19 +230,11 @@ html {
   overflow: hidden;
 }
 
-/*================
-TYPOGRAPHY
-
-font-family: 'Lato', sans-serif;
-
-font-family: 'Playfair Display SC', serif;
-
-=================*/
 header h2 {
   font-family: "Playfair Display SC", serif;
   font-style: italic;
   font-size: 34.6px;
-  color: #50e3c2;
+  color: #50E3C2;
 }
 
 header a {
@@ -250,11 +242,11 @@ header a {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  color: #fafffe;
+  color: #FAFFFE;
 }
 
 header a:hover {
-  color: #50e3c2;
+  color: #50E3C2;
   width: 100%;
 }
 
@@ -262,7 +254,7 @@ h1 {
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 87px;
-  color: #0c5f4c;
+  color: #0C5F4C;
 }
 h1 span {
   font-family: "Playfair Display SC", serif;
@@ -275,7 +267,7 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: normal;
   font-size: 20PX;
-  color: #2c2c2c;
+  color: #2C2C2C;
   line-height: 32px;
 }
 
@@ -284,7 +276,7 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   font-size: 35px;
-  color: #0c5f4c;
+  color: #0C5F4C;
 }
 
 h4 {
@@ -293,7 +285,7 @@ h4 {
   font-size: 30px;
   line-height: 58px;
   letter-spacing: 3.2px;
-  color: #0c5f4c;
+  color: #0C5F4C;
 }
 
 h5 {
@@ -375,7 +367,7 @@ header {
 
 .visit {
   padding: 10% 0;
-  background: #fafffe;
+  background: #FAFFFE;
 }
 .visit .wrapper {
   display: flex;
@@ -390,7 +382,7 @@ header {
 }
 .visit .wrapper div:first-child a {
   text-decoration: none;
-  color: #fafffe;
+  color: #FAFFFE;
   background-color: #063974;
   padding: 20px;
 }
@@ -398,13 +390,13 @@ header {
   flex: 1 0 auto;
 }
 .visit .wrapper div:nth-child(2) img {
-  box-shadow: -30px 30px #50e3c2;
+  box-shadow: -30px 30px #50E3C2;
   width: 350px;
   height: auto;
 }
 
 .gallery {
-  background: #d2f9f1;
+  background: #D2F9F1;
 }
 .gallery .wrapper {
   width: 100%;
@@ -444,7 +436,7 @@ header {
 .links .wrapper .oneLink i {
   color: #FAFFFE;
   font-size: 30px;
-  background: #50e3c2;
+  background: #50E3C2;
   padding: 14px;
   height: 60px;
   border-radius: 50%;
@@ -455,7 +447,7 @@ header {
 }
 
 .locations {
-  background: #d2f9f1;
+  background: #D2F9F1;
 }
 .locations .wrapper {
   display: grid;
@@ -510,12 +502,12 @@ header {
 }
 
 .locationPic1 img {
-  box-shadow: 26px 26px #50e3c2;
+  box-shadow: 26px 26px #50E3C2;
   top: -36px;
 }
 
 .locationPic2 img {
-  box-shadow: -26px 26px #50e3c2;
+  box-shadow: -26px 26px #50E3C2;
 }
 
 .banner {
@@ -525,7 +517,7 @@ header {
 
 .freeTrip {
   text-align: center;
-  background: #fafffe;
+  background: #FAFFFE;
 }
 .freeTrip h5 {
   margin-bottom: 15px;
@@ -543,11 +535,11 @@ header {
 }
 
 footer {
-  background: #2c2c2c;
+  background: #2C2C2C;
   height: 34px;
   text-align: center;
 }
 footer p {
   margin: 0;
-  color: #fafffe;
+  color: #FAFFFE;
 }/*# sourceMappingURL=style.css.map */
