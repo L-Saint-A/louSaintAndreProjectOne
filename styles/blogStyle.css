@@ -351,14 +351,31 @@ h1 {
 }
 
 .post {
+  margin-top: -150px;
   width: 1200px;
-  box-shadow: 60px 60px #50E3C2;
+  box-shadow: 20px 20px #50E3C2;
+  float: left;
 }
-.post img {
+.post .blogPost {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
 }
 .post div {
+  margin: 60px 218px;
+}
+
+.aside {
+  display: flex;
   flex-direction: column;
+  align-items: flex-end;
+}
+.aside img, .aside div, .aside h3, .aside p, .aside li {
+  width: 400px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
 }/*# sourceMappingURL=blogStyle.css.map */
