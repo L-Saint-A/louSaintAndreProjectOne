@@ -65,6 +65,17 @@ h1 {
         object-fit: contain;
         text-align: left;
         list-style: none;
-        text-decoration: none;
     }
+}
+h3 {
+    color: $quinary;
+}
+.fa-circle {
+    color: $primary;
+    margin: 0 24px 0 -24px;
+    font-size: 6px;
+    text-align: justify;
+}
+li {
+    font-family: $mainFont;
 }

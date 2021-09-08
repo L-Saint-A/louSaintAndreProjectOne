@@ -377,5 +377,19 @@ h1 {
      object-fit: contain;
   text-align: left;
   list-style: none;
-  text-decoration: none;
+}
+
+h3 {
+  color: #063974;
+}
+
+.fa-circle {
+  color: #50E3C2;
+  margin: 0 24px 0 -24px;
+  font-size: 6px;
+  text-align: justify;
+}
+
+li {
+  font-family: "Lato", sans-serif;
 }/*# sourceMappingURL=blogStyle.css.map */
