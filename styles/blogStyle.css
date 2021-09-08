@@ -315,7 +315,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 650px;
 }
 
 .headTop {
@@ -348,4 +348,17 @@ header {
 h1 {
   color: #FAFFFE;
   letter-spacing: 8.15px;
+}
+
+.post {
+  width: 1200px;
+  box-shadow: 60px 60px #50E3C2;
+}
+.post img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.post div {
+  flex-direction: column;
 }/*# sourceMappingURL=blogStyle.css.map */

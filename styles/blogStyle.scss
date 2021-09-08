@@ -11,7 +11,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 800px;
+    height: 650px;
 }
 .headTop {
     display: flex;
@@ -41,4 +41,15 @@ header {
 h1 {
     color: $tertiary;
     letter-spacing: 8.15px;
+}
+.post {
+    width: 1200px;
+    box-shadow: 60px 60px $primary;
+    img {
+        object-fit: contain;
+        width: 100%;
+    }
+    div {
+        flex-direction: column;
+    }
 }
