@@ -43,10 +43,11 @@ h1 {
     letter-spacing: 8.15px;
 }
 .post {
-    margin-top: -150px;
+    margin-top: -266px;
     width: 1200px;
     box-shadow: 20px 20px $primary;
     float: left;
+    background: $tertiary;
     .blogPost {
         object-fit: contain;
         width: 100%;
@@ -56,10 +57,12 @@ h1 {
     }
 }
 .aside {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    img, div, h3, p, li{
+    background: $tertiary;
+    img, div, h4, p, li{
         width: 400px;
         height: auto;
         object-fit: contain;
@@ -67,7 +70,7 @@ h1 {
         list-style: none;
     }
 }
-h3 {
+h4 {
     color: $quinary;
 }
 li {

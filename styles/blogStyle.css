@@ -351,10 +351,11 @@ h1 {
 }
 
 .post {
-  margin-top: -150px;
+  margin-top: -266px;
   width: 1200px;
   box-shadow: 20px 20px #50E3C2;
   float: left;
+  background: #FAFFFE;
 }
 .post .blogPost {
   -o-object-fit: contain;
@@ -366,11 +367,13 @@ h1 {
 }
 
 .aside {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  background: #FAFFFE;
 }
-.aside img, .aside div, .aside h3, .aside p, .aside li {
+.aside img, .aside div, .aside h4, .aside p, .aside li {
   width: 400px;
   height: auto;
   -o-object-fit: contain;
@@ -379,7 +382,7 @@ h1 {
   list-style: none;
 }
 
-h3 {
+h4 {
   color: #063974;
 }
 
