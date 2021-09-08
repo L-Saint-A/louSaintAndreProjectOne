@@ -383,13 +383,19 @@ h3 {
   color: #063974;
 }
 
+li {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  color: #2C2C2C;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
 .fa-circle {
+  position: absolute;
+  top: 14px;
   color: #50E3C2;
   margin: 0 24px 0 -24px;
   font-size: 6px;
   text-align: justify;
-}
-
-li {
-  font-family: "Lato", sans-serif;
 }/*# sourceMappingURL=blogStyle.css.map */

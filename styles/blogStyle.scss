@@ -70,12 +70,18 @@ h1 {
 h3 {
     color: $quinary;
 }
+li {
+    position: relative;
+    font-family: $mainFont;
+    color: $senary;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
 .fa-circle {
+    position: absolute;
+    top: 14px;
     color: $primary;
     margin: 0 24px 0 -24px;
     font-size: 6px;
     text-align: justify;
-}
-li {
-    font-family: $mainFont;
 }
