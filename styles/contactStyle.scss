@@ -1,0 +1,113 @@
+@import "setup";
+@import "palette&Typography";
+
+.wrapper {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    background-image: url(../assets/contact-image-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    h1 {
+        color: $tertiary;
+    }
+}
+.headTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+        flex: 1 0 auto;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex: 1 0 auto;
+        li {
+            margin: 0 22px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.headMid {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 11rem;
+}
+.contacts {
+    display: flex;
+    max-width: 95%;
+}
+
+form {
+    display: flex;
+    width: 70%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 80px;
+    margin: -160px 0 200px 0;
+    background: $tertiary;
+    box-shadow: 20px 20px $primary;
+    input {
+        justify-content: space-between;
+        width: 45%;
+        height: 30px;
+        flex: 1 0 auto;
+        border: none;
+        border-bottom: 2px solid $primary;
+        font-family: $mainFont;
+        font-size: 20px;
+        padding: 22px;
+        color: lightgray;
+    }
+    textarea {
+        width: 100%;
+        height: 200px;
+        margin-top: 40px;
+        font-size: 20px;
+        color: lightgray;
+        padding: 22px;
+        border: 2px solid $primary;
+    }
+    button {
+        margin-top: 60px;
+        width: 100%;
+        border: none;
+        background: $quinary;
+        padding: 10px 0;
+        font-family: $subFont;
+        color: $tertiary;
+        font-size: 20px;
+    }
+}
+.info {
+    width: 30%;
+    padding: 80px;
+    div i{
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    p {
+        margin: 6px 0;
+    }
+}
+.info p:first-of-type{
+    font-weight: bold;
+    margin: 16px 0;
+}
+footer {
+    background: $senary;
+    height: 34px;
+    text-align: center;
+    p {
+        margin: 0;
+        color: $tertiary;
+    }
+}
