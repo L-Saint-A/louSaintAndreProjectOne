@@ -6,6 +6,9 @@
     width: 90%;
     margin: 0 auto;
 }
+main {
+    max-width: 1300px;
+}
 header {
     background-image: url(../assets/blog-image-1.jpg);
     background-repeat: no-repeat;
@@ -59,9 +62,10 @@ h1 {
 .aside {
     margin-top: 100px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     background: $tertiary;
+    div{
+        margin-left: 250px;
+    }
     img, div, h4, p, li{
         width: 400px;
         height: auto;
@@ -87,4 +91,59 @@ li {
     margin: 0 24px 0 -24px;
     font-size: 6px;
     text-align: justify;
+}
+
+.comments .wrapper {
+    margin-top: 550px;
+    h5 {
+        color: $senary;
+        font-weight: bold;
+    }
+    .commentLine {
+        display: flex;
+        padding-top: 60px;
+        .commentText {
+            padding: 0 40px 0 40px;
+        }
+        .commentImage {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        h6 {
+            color: $quinary;
+            font-family: $mainFont;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+}
+
+
+
+form {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: $senary;
+    height: 34px;
+    text-align: center;
+    p {
+        margin: 0;
+        color: $tertiary;
+    }
 }

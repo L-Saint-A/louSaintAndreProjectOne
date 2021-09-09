@@ -310,6 +310,10 @@ a {
   margin: 0 auto;
 }
 
+main {
+  max-width: 1300px;
+}
+
 header {
   background-image: url(../assets/blog-image-1.jpg);
   background-repeat: no-repeat;
@@ -369,9 +373,10 @@ h1 {
 .aside {
   margin-top: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   background: #FAFFFE;
+}
+.aside div {
+  margin-left: 250px;
 }
 .aside img, .aside div, .aside h4, .aside p, .aside li {
   width: 400px;
@@ -401,4 +406,46 @@ li {
   margin: 0 24px 0 -24px;
   font-size: 6px;
   text-align: justify;
+}
+
+.comments .wrapper {
+  margin-top: 550px;
+}
+.comments .wrapper h5 {
+  color: #2C2C2C;
+  font-weight: bold;
+}
+.comments .wrapper .commentLine {
+  display: flex;
+  padding-top: 60px;
+}
+.comments .wrapper .commentLine .commentText {
+  padding: 0 40px 0 40px;
+}
+.comments .wrapper .commentLine .commentImage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.comments .wrapper .commentLine h6 {
+  color: #063974;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  background: #2C2C2C;
+  height: 34px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  color: #FAFFFE;
 }/*# sourceMappingURL=blogStyle.css.map */
