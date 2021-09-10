@@ -218,3 +218,38 @@ footer {
         color: $tertiary;
     }
 }
+@media (max-width: 940px) {
+    header {
+        height: 100vh;
+        .glasses{
+            display: none;
+        }
+        .headMid {
+            padding-top: 4rem;
+        }
+    }
+    .visit {
+        padding-top: 48px;
+    }
+    .gallery ul {
+            flex-direction: column;
+            align-items: center;
+    }
+    .locations {
+        padding-bottom: 60px;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            .locationPic1, .locationPic2 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+
+@media (max-width: 480px) {
+}
