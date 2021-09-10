@@ -247,9 +247,37 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-}
-
-
 @media (max-width: 480px) {
+    header {
+        .headTop {
+            h2 {
+                display: none;
+            }
+            nav ul{
+                padding-left: 0;
+            }
+        }
+    }
+    .headMid {
+        margin-top: 7rem;
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            span {
+                font-size: 65px;
+            }
+        }
+    }
+    .visit .wrapper{
+        flex-direction: column;
+        div:nth-child(2) {
+            display: none;
+        }
+    }
+    .links .wrapper {
+        flex-direction: column;
+        .oneLink {
+            width: auto;
+        }
+    }
 }

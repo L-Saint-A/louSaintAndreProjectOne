@@ -571,4 +571,37 @@ footer p {
   .locations .wrapper .locationPic1, .locations .wrapper .locationPic2 {
     display: none;
   }
+}
+@media (max-width: 480px) {
+  header .headTop h2 {
+    display: none;
+  }
+  header .headTop nav ul {
+    padding-left: 0;
+  }
+
+  .headMid {
+    margin-top: 7rem;
+  }
+  .headMid h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .headMid h1 span {
+    font-size: 65px;
+  }
+
+  .visit .wrapper {
+    flex-direction: column;
+  }
+  .visit .wrapper div:nth-child(2) {
+    display: none;
+  }
+
+  .links .wrapper {
+    flex-direction: column;
+  }
+  .links .wrapper .oneLink {
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
