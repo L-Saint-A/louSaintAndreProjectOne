@@ -482,4 +482,70 @@ footer {
 footer p {
   margin: 0;
   color: #FAFFFE;
+}
+
+@media (max-width: 940px) {
+  .headMid {
+    justify-content: center;
+    padding-top: 4rem;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle img {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    padding-top: 40px;
+  }
+  .middle div div {
+    margin: 20px;
+    width: 65%;
+    padding: 0 auto;
+  }
+  .middle .post {
+    width: 100%;
+  }
+
+  .aside {
+    margin-top: 36px;
+  }
+  .aside img {
+    display: none;
+  }
+
+  .comments .wrapper {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .headTop {
+    flex-direction: column;
+  }
+  .headTop nav ul {
+    padding: 0;
+  }
+
+  .headMid {
+    text-align: center;
+    padding: 0;
+  }
+
+  form {
+    width: 100%;
+  }
+  form input {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .middle div div {
+    width: auto;
+  }
+
+  .comments .wrapper .commentLine .commentText {
+    padding: 0 0 0 36px;
+  }
 }/*# sourceMappingURL=blogStyle.css.map */
