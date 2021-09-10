@@ -573,6 +573,9 @@ footer p {
   }
 }
 @media (max-width: 480px) {
+  header .headTop {
+    justify-content: center;
+  }
   header .headTop h2 {
     display: none;
   }
@@ -603,5 +606,20 @@ footer p {
   }
   .links .wrapper .oneLink {
     width: auto;
+  }
+
+  .locations .wrapper {
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .locations .wrapper .locationWords1, .locations .wrapper .locationWords2 {
+    margin: 0 -2px 0 -2px;
+  }
+  .locations .wrapper .locationWords1 p, .locations .wrapper .locationWords2 p {
+    width: 350px;
+  }
+
+  .freetrip .wrapper {
+    padding-bottom: 84px;
   }
 }/*# sourceMappingURL=style.css.map */

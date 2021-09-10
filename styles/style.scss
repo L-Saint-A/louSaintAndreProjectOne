@@ -250,6 +250,7 @@ footer {
 @media (max-width: 480px) {
     header {
         .headTop {
+            justify-content: center;
             h2 {
                 display: none;
             }
@@ -279,5 +280,18 @@ footer {
         .oneLink {
             width: auto;
         }
+    }
+    .locations .wrapper{
+        justify-content: center;
+        padding-top: 40px;
+        .locationWords1, .locationWords2 {
+            margin: 0 -2px 0 -2px;
+            p {
+                width: 350px;
+            }
+        }
+    }
+    .freetrip .wrapper{
+        padding-bottom: 84px;
     }
 }
