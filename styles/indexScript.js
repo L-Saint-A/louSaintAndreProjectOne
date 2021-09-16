@@ -14,3 +14,13 @@ buttonTwo.addEventListener('click', function(event){
     const newP = ('YOU CANNOT READ MORE AT THIS TIME. MOVE ALONG');
     planAhead.replaceWith(newP);
 });
+
+const buttonThree = document.querySelector('.buttonThree');
+
+buttonThree.addEventListener('click', function(event){
+    event.preventDefault();
+    const disclaimer = document.querySelector('.disclaimer');
+    const newContain = document.createElement("h2");
+    newContain.innerText = "***NOTHING IS FREE, ALWAYS READ THE FINE PRINT!***"
+    disclaimer.appendChild(newContain)
+});
